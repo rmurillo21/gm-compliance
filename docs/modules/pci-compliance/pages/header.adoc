@@ -1,0 +1,16 @@
+:doctype: book
+:stylesheet: asciidoc.css
+// :stylesheet: ../assets/css/custom.css
+:imagesdir: ../assets/images
+:company-full-name: Joel Security Docs
+:company-short-name: DoJiggy
+:company-email-domain: dojiggy.com
+:ticketing-system: [TICKETING SYSTEM]
+:hr-system-name: [HR SYSTEM NAME]
+:operating-officer-full-name: [OPERATING OFFICER FULL NAME]
+:engineer-full-name: [ENGINEER FULL NAME]
+:ceo-full-name: [CEO FULL NAME]
+:security-committee-members: [SECURITY COMMITTEE MEMBERS]
+:security-officer-full-name: [SECURITY OFFICER FULL NAME]
+:company-mailing-address: [COMPANY MAILING ADDRESS]
+:privacy-officer-full-name: [PRIVACY OFFICER FULL NAME]

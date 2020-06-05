@@ -1,0 +1,6 @@
+name: gm-compliance
+title: DoJiggy PCI Compliance
+version: dev
+nav:
+- modules/ROOT/nav.adoc
+- modules/pci-compliance/nav.adoc

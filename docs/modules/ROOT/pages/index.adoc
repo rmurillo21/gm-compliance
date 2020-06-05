@@ -1,0 +1,3 @@
+:company-short-name: DoJiggy
+
+= {company-short-name} Security Policies, Standards, and Procedures

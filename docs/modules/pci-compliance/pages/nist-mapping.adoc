@@ -1,0 +1,90 @@
+include::header.adoc[]
+
+== NIST Mappings to {company-short-name} Policies and Controls
+
+`2020.1`
+
+Below is a list of NIST SP 800-53 Controls Families and the mappings to {company-short-name} policies and controls in place.
+
+|===
+| ID | NIST SP 800-53 Control Family | {company-short-name} Policies and Controls
+
+| AC
+| Access Control
+| xref:access.adoc[Access]
+
+| AT
+| Awareness and Training
+| xref:rar.adoc[Roles and Responsibilities]
+
+| AU
+| Audit and Accountability
+| xref:rar.adoc[Roles and Responsibilities];
+xref:compliance-audit.adoc[Compliance Audits]
+
+| CA
+| Security Assessment and Authorization
+| xref:risk-mgmt.adoc[Risk Management];
+xref:access.adoc[Access]
+
+| CM
+| Configuration Management
+| xref:ccm.adoc[Configuration and Change Management]
+
+| CP
+| Contingency Planning
+| xref:bcdr.adoc[Business Continuity and Disaster Recovery]
+
+| IA
+| Identification and Authentication
+| xref:access.adoc[Access]
+
+| IR
+| Incident Response
+| xref:ir.adoc[Incident Response];
+xref:breach.adoc[Breach Notification]
+
+| MA
+| Maintenance
+| xref:ccm.adoc[Configuration and Change Management]
+
+| PE
+| Physical and Environmental Protection
+| xref:facility.adoc[Facility and Physical Security]
+
+| PL
+| Planning
+| xref:program.adoc[Security Program Overview];
+xref:model.adoc[Security Architecture & Operating Model]
+
+| PS
+| Personnel Security
+| xref:hr.adoc[HR & Personnel Security]
+
+| RA
+| Risk Assessment
+| xref:risk-mgmt.adoc[Risk Management]
+
+| SA
+| System and Services Acquisition
+| xref:vendor.adoc[Third Party Security, Vendor Risk Management and Systems/Services Acquisition]
+
+| SC
+| System and Communications Protection
+| xref:data-mgmt.adoc[Data Management];
+xref:data-protection.adoc[Data Protection];
+and xref:threat.adoc[Threat Detection & Prevention]
+
+| SI
+| System and Information Integrity
+| xref:data-mgmt.adoc[Data Management];
+xref:data-protection.adoc[Data Protection];
+xref:sdlc.adoc[Product Security & Secure Software Development];
+xref:vuln-mgmt.adoc[Vulnerability Management];and xref:system-audit.adoc[System Audits, Monitoring & Assessments]
+
+| PM
+| Program Management
+| xref:program.adoc[Security Program Overview];
+xref:rar.adoc[Roles and Responsibilities];
+and xref:policy-mgmt.adoc[Policy Management]
+|===
