@@ -15,5 +15,19 @@ asciidoc:
   extensions:
     - asciidoctor-kroki
   attributes:
-    company-name: Joel Local
     sectanchors:
+    stylesheet: docs/css/asciidoctor.css
+    company-name: NewCo
+    company-full-name: NewCo Inc.
+    company-short-name: NewCo
+    company-email-domain: newco.com
+    ticketing-system: SalesForce
+    hr-system-name: BambooHR
+    operating-officer-full-name: Jane Smith
+    engineer-full-name: John Anderson
+    ceo-full-name: Rod Wallace
+    security-committee-members: Lisa Andrade, John Paz
+    security-officer-full-name: Freddy Velasquez
+    company-mailing-address: 1453 W Main, City, State, 89012
+    privacy-officer-full-name: Janet Elson
+    sec-ops-provider: Green Marimba I/O
