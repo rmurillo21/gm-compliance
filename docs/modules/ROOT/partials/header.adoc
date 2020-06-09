@@ -1,0 +1,4 @@
+:doctype: book
+:stylesheet: asciidoc.css
+// :stylesheet: ../assets/css/custom.css
+:imagesdir: ../assets/images

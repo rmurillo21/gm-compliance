@@ -1,6 +1,6 @@
-name: gm-compliance
-title: DoJiggy PCI Compliance
+name: hippa-compliance
+title: DoJiggy HIPPA Compliance
 version: dev
 nav:
 - modules/ROOT/nav.adoc
-- modules/pci-compliance/nav.adoc
+- modules/hippa-compliance/nav.adoc

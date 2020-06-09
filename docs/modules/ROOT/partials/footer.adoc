@@ -1,0 +1,2 @@
+[.text-center]
+Copyright (C) 2020 Confidential and Proprietary
