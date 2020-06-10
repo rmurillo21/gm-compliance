@@ -1,5 +1,5 @@
 site:
-  title: DoJiggy HIPPA Compliance
+  title: HIPPA Compliance
   start_page: hippa-compliance::index.adoc 
 content:
   sources:
