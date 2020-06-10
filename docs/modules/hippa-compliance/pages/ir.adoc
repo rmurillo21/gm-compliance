@@ -90,12 +90,13 @@ Examples:
 {company-short-name} employees must report any unauthorized or suspicious activity seen on production systems or associated with related communication systems (such as email or Slack).
 In practice this means keeping an eye out for security events, and letting the Security team know about any observed precursors or indications as soon as they are discovered.
 
-!!!
-Attention
-
- Incidents of a severity/impact rating higher than **MINOR** shall trigger the
- following response process, or as defined more specifically in the **Incident
- Categories and Playbooks** section.
+[IMPORTANT]
+====
+.Attention
+Incidents of a severity/impact rating higher than **MINOR** shall trigger the
+following response process, or as defined more specifically in the **Incident
+Categories and Playbooks** section.
+====
 
 ==== I - Identification and Triage
 
