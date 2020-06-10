@@ -16,7 +16,7 @@ This include threat detection and prevention at both the network and host level,
 === System Malware Protection
 
 . All end-user workstations and production systems must have antivirus running.
-The default anti-malware solution used is Carbon Black PSC.
+The default anti-malware solution used is {hids-name}.
 The anti-malware solution will include protection against malicious mobile code.
  ** Next generation endpoint protection agent may be used as an equivalent solution.
  ** Hosts are scanned continuously for malicious binaries in critical system paths.
@@ -56,8 +56,8 @@ Additional monitoring is provided by our infrastructure service provider AWS.
 
 Host based intrusion detection is supported via one of the following:
 
-* On Windows and macOS systems: *AWS Inspector and Carbon Black PSC* agents for malware detection and behavior-based endpoint threat detection.
-* On Linux servers: *AWS Inspector and Carbon Black PSC* agents for activity monitoring, vulnerability scanning, and threat detection.
+* On Windows and macOS systems: *AWS Inspector and {hids-name}* agents for malware detection and behavior-based endpoint threat detection.
+* On Linux servers: *AWS Inspector and {hids-name}* agents for activity monitoring, vulnerability scanning, and threat detection.
 This includes all virtual instances running in the cloud environment.
 
 === Web Application Protection
