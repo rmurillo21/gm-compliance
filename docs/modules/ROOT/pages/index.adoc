@@ -1,5 +1,7 @@
 = {company-short-name} Security Policies, Standards, and Procedures
 
+`2020.1`
+
 The Health Insurance Portability and Accountability Act of 1996 (HIPAA) and its implementing
 regulations restrict {company-full-name}, (“**{company-short-name}”**) abilities to use and disclose protected
 health information (PHI).
