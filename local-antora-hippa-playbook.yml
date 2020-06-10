@@ -1,5 +1,5 @@
 site:
-  title: DoJiggy HIPPA Compliance
+  title: HIPPA Compliance
   start_page: hippa-compliance::index.adoc 
 content:
   sources:
@@ -22,7 +22,6 @@ asciidoc:
     company-email-domain: newco.com
     company-full-name: NewCo Inc.
     company-mailing-address: 1453 W Main, City, State, 89012
-    company-name: NewCo
     company-short-name: NewCo
     domain-policy-url: newco.com/policy
     domain-security-url: newco.com/security

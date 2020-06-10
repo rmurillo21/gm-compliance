@@ -1,10 +1,10 @@
 site:
-  title: DoJiggy HIPPA Compliance
+  title: NewCo. HIPPA Compliance
   start_page: hippa-compliance::index.adoc 
 content:
   sources:
-  - url: ./
-    branches: HEAD
+  - url: git@github.com:rmurillo21/gm-compliance.git
+    branches: master
     start_path: docs
 ui:
   bundle:

@@ -1,5 +1,5 @@
 name: hippa-compliance
-title: DoJiggy HIPPA Compliance
+title: HIPPA Compliance
 version: dev
 nav:
 - modules/ROOT/nav.adoc
