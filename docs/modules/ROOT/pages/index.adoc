@@ -1,3 +1,5 @@
 :company-short-name: DoJiggy
 
 = {company-short-name} Security Policies, Standards, and Procedures
+
+include::ROOT:partial$footer.adoc[]
