@@ -16,7 +16,7 @@ asciidoc:
     - asciidoctor-kroki
   attributes:
     sectanchors:
-    stylesheet: asciidoctor.css
+    stylesheet: docs/css/asciidoctor.css
     company-name: NewCo
     company-full-name: NewCo Inc.
     company-short-name: NewCo
