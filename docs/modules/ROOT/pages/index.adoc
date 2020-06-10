@@ -1,3 +1,39 @@
-:company-short-name: DoJiggy
-
 = {company-short-name} Security Policies, Standards, and Procedures
+
+The Health Insurance Portability and Accountability Act of 1996 (HIPAA) and its implementing
+regulations restrict Axis Community Health (“Axis”, “Company”) abilities to use and disclose protected
+health information (PHI).
+Protected Health Information. Protected health information means information that is created or received
+by the Company and relates to the past, present, or future physical or mental health condition of a
+Patient/Client (“Participant”); the provision of health care to a participant; or the past, present, or future
+payment for the provision of health care to a participant; and that identifies the participant or for which
+there is a reasonable basis to believe the information can be used to identify the participant. Protected
+health information includes information of persons living or deceased.
+
+Some examples of PHI are:
+
+- Participant’s medical record number
+- Participant’s demographic information (e.g. address, telephone number)
+- Information doctors, nurses and other health care providers put in a participant’s medical record
+- Images of the participant
+- Conversations a provider has about a participant’s care or treatment with nurses and others
+- Information about a participant in a provider’s computer system or a health insurer’s computer system
+- Billing information about a participant at a clinic
+- Any health information that can lead to the identity of an individual or the contents of the
+information can be used to make a reasonable assumption as to the identity of the individual
+
+It is {company-short-name}’s policy to comply fully with HIPAA's requirements. To that end, all staff members who
+have access to PHI must comply with this HIPAA Privacy and Security Plan. For purposes of this plan and
+the Company’s use and disclosure procedures, the workforce includes individuals who would be considered
+part of the workforce under HIPAA such as employees, volunteers, interns, board members and other
+persons whose work performance is under the direct control of Axis, whether or not they are paid by Axis.
+The term "employee" or “staff member” includes all of these types of workers.
+
+No third party rights (including but not limited to rights of participants, beneficiaries, covered dependents,
+or business associates) are intended to be created by this Plan. Axis reserves the right to amend or change
+this Plan at any time (and even retroactively) without notice.
+
+All staff members must comply with all applicable HIPAA privacy and information security policies. If
+after an investigation you are found to have violated the organization’s HIPAA privacy and information
+security policies then you will be subject to disciplinary action up to termination or legal ramifications if
+the infraction requires it
