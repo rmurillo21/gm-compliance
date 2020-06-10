@@ -48,7 +48,7 @@ Position / Job descriptions are documented and updated as needed that define the
 === Performance Reviews and Feedback
 
 Employees receive regular feedback and acknowledgement from their manager and peers.
-Formal performance reviews are conducted annually using EaseCentral.
+Formal performance reviews are conducted annually using {hr-system-name}.
 Performance measures, incentives, and other rewards are established by management according to responsibilities at all levels, reflecting appropriate dimensions of performance and expected standards of conduct.
 
 === Acceptable Use of End-user Computing
@@ -96,7 +96,7 @@ The onboarding process should include the following IT/Security items:
 . Training.
  ** New workforce member is provided training on {company-short-name} security policy, acceptable use policy, and given access to the Employee Handbook.
  ** HIPAA awareness training is provided to new workforce member.
- ** Records of training and policy acceptance is kept in the HR system (currently EaseCentral).
+ ** Records of training and policy acceptance is kept in the HR system (currently {hr-system-name}).
  ** The training and acceptance must be completed within 30 days of employment.
 . Access.
  ** Standard access is provisioned according to the job role and approval as specified in the HR onboarding {ticketing-system} ticket.
