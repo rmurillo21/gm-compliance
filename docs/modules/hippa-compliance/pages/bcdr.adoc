@@ -160,7 +160,7 @@ However, if the application system Contingency Plan is included in the technical
 
 ==== Tabletop Testing
 
-Tabletop Testing is conducted in accordance with the http://www.cms.gov/Research-Statistics-Data-and-Systems/CMS-Information-Technology/InformationSecurity/Downloads/RMH_VII_4-5_Contingency_Plan_Exercise.pdf[CMS Risk Management Handbook, Volume 2].
+Tabletop Testing is conducted in accordance with the https://www.cms.gov/Research-Statistics-Data-and-Systems/CMS-Information-Technology/InformationSecurity/Info-Security-Library-Items/RMH-Chapter-6-Supplemental-Contingency-Planning-Exercise-Procedures[CMS Risk Management Handbook, Volume 2].
 The primary objective of the tabletop test is to ensure designated personnel are knowledgeable and capable of performing the notification/activation requirements and procedures as outlined in the CP, in a timely manner.
 The exercises include, but are not limited to:
 

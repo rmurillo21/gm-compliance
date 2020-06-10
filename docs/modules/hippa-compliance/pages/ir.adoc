@@ -55,7 +55,7 @@ Current members of the {company-short-name} SIRT:
 === Incident Management Process
 
 The {company-short-name} incident response process follows the process recommended by https://www.sans.org[SANS], an industry leader in security.
-Process flows are a direct representation of the SANS process which can be found in link:incident-flowchart.pdf[this document].
+Process flows are a direct representation of the SANS process which can be found in link:../attachments/incident-flowchart.pdf[this document].
 
 {company-short-name}'s incident response classifies security-related events into the following categories:
 

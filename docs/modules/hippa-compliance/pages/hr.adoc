@@ -217,6 +217,6 @@ release of sensitive data to an unauthorized individual), change of the data int
 . When the Security Officer identifies a violation and begins a formal sanction process, they will notify the appropriate management or supervisors within 24 hours.
 That notification will include 1) identifying the individual sanctioned, 2) the reason for the sanction, and 3) specific procedures for service or account restriction / revocation or other disciplinary actions as required.
 
-link:ref/sanction-notice.pdf[Warning Notice Template]
+link:../attachments/sanction-notice.pdf[Warning Notice Template]
 
 include::ROOT:partial$footer.adoc[]
