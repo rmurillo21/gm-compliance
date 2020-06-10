@@ -123,12 +123,16 @@ by using a password protected screen saver or logging off the system).
  ** account lockout after 5 invalid attempts.
 
 +
-!!!
-check "Exceptions"
 
-  Password expiration may be set to a greater interval if an account is always protected by MFA.
-  Currently, Okta SSO password rotation interval is set to 60 days.
-. All system and application passwords must be stored and transmitted securely.
+[IMPORTANT]
+.Check "Exceptions"
+
+====
+Password expiration may be set to a greater interval if an account is always protected by MFA.  Currently, Okta SSO password rotation interval is set to 60 days. 
+====
+
+. All system and application passwords must be stored and transmitted securely
+
  ** Where possible, passwords should be stored in a hashed format using a salted cryptographic hash function (SHA-256 or stronger NIST compliant standard).
  ** Passwords that must be stored in non-hashed format must be encrypted at rest pursuant to the requirements in xref:data-protection.adoc[Data Protection].
  ** Transmitted passwords must be encrypted in flight pursuant to the requirements in xref:data-protection.adoc[Data Protection].
@@ -166,10 +170,8 @@ Multi-factor authentication (MFA) is a standard control used by {company-short-n
 
 {company-short-name} implements Okta for MFA.
 
-!!!
-important
-
-....
+[IMPORTANT]
+====
 **Approved MFA methods include:**
 
 - Push notification delivered through the Okta mobile app (default and preferred for end-user access)
@@ -178,7 +180,7 @@ important
 - Time-based One-Time Password (TOTP) delivered through a mobile app, such as Google Authenticator
 - One-time passcode delivered through SMS text message (if it is the only supported option)
 - Secure physical facility (if the system or application can only be accessed at that location)
-....
+====
 
 === Role Based Access Control (RBAC)
 
@@ -225,7 +227,7 @@ This policy allows read-only access to account and resource configurations, but 
 `~/.aws/credentials` and `~/.aws/config`).
 * This temporary credentials expires after one hour and a new temporary credential must be obtained for access.
 * Through this method, developers are granted the same permission as they would by assuming the `Developer` role through AWS console.
-* Additional details are documented on the link:[Development Wiki].
+* Additional details are documented on the link:wiki[Development Wiki].
 
 *IAM Safety*
 

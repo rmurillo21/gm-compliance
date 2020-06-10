@@ -219,6 +219,6 @@ In an event that requires data to be recovered, it will be retrieved from Glacie
 
 {company-short-name} assumes that in the worst-case scenario, that one of the production environments suffers a complete data loss, the account will be reconstructed from code, and the data restored from Glacier that is hosted within a different AWS account and geolocation.
 
-Recovery of production Environments and data should follow the procedures listed above and in link:data-mgmt.md#cp-data-backup[Data Management - Backup and Recovery]
+Recovery of production Environments and data should follow the procedures listed above and in xref:data-mgmt.adoc#cp-data-backup[Data Management - Backup and Recovery]
 
 include::ROOT:partial$footer.adoc[]

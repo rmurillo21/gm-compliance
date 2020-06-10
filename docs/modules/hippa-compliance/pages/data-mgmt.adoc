@@ -13,7 +13,7 @@ To protect the confidentiality, integrity, and availability of sensitive and cri
 
 {company-short-name} policy requires that
 
-(a) Data should be classified at time of creation or acquisition according to the link:data-mgmt.md#data-classification-model[{company-short-name} data classification model], by labeling or tagging the data.
+(a) Data should be classified at time of creation or acquisition according to the xref:data-mgmt.adoc#data-classification-model[{company-short-name} data classification model], by labeling or tagging the data.
 
 (b) Maintain an up-to-date inventory and data flows mapping of all critical data.
 

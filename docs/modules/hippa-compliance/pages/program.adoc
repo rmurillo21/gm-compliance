@@ -7,10 +7,10 @@ This includes implementation of policies, standards, controls and procedures to 
 
 The {company-short-name} security program and policies are developed on the principles that (1) security is everyone's responsibility and (2) self-management is best encouraged by rewarding the right behaviors.
 
-!!!
-TLDR
-
- [Quick Reference / Employee Handbook](employee-handbook.md)
+[TIP]
+====
+xref:employee-handbook.adoc[Quick Reference / Employee Handbook]
+====
 
 == Controls and Procedures
 

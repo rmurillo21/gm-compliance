@@ -15,14 +15,14 @@ Security is everyone's responsibility.
 If this is not your first job, don't do anything that might get you in trouble at your previous workplace.
 When in doubt, stop and ask.
 
-!!!
-check "Acknowledgement"
+[IMPORTANT]
+.Check "Acknowledgement"
 
-....
+====
 As a {company-short-name} employee, I acknowledge that
 
 * I have reviewed and will comply with company
-  [security policies and procedures][1], [acceptable use][2], and [sanction policies][3].
+  xref:index.adoc[security policies and procedures][1], [acceptable use][2], and [sanction policies][3].
 * I accept that my work devices, including approved BYOD devices, and activities on such devices are subject to security monitoring.
 * I will protect my work devices at remote locations and will not leave devices unattended.
 * I will ensure my laptops and workstations are securely configured with whole disk encryption, endpoint security agent, malware protection, local firewall, password protected screensaver, and latest security patches.
@@ -41,9 +41,7 @@ As a {company-short-name} employee, I acknowledge that
 * I will NOT use shared/generic, guest/anonymous, emergency or temporary accounts without explicit approval.
 * I will regularly back up business data on my user devices to approved data storage media/repositories such as the company SharePoint site.
 * I will report any incident and suspicious activity to Security and/or my manager.
-....
-
-[4]:
+====
 
 === Training
 
@@ -131,12 +129,10 @@ product specs, business plans)
 * Important records (e.g.
 approval notes)
 
-!!!
-important
-
- DO NOT backup critical data such as customer data or PII to file sharing sites.
- If you have such critical data locally on your device, contact IT and
- Security for the appropriate data management and protection solution.
+[IMPORTANT]
+====
+DO NOT backup critical data such as customer data or PII to file sharing sites. If you have such critical data locally on your device, contact IT and Security for the appropriate data management and protection solution.
+====
 
 Unless the local workstation/device has access to *Critical* data, backups of user workstations/devices are self managed by the device owner.
 Backups may be stored on an external hard drive or using a cloud service such as iCloud if and only if the data is both encrypted and password protected (passwords must meet {company-short-name} requirements).

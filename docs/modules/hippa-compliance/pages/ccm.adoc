@@ -230,16 +230,15 @@ A separate `change-management-bot` is implemented to provide additional details 
   *** Ensure that security scanning has been completed for this build and no blocking issue is found.
 
 +
-!!!
-attention
-+
-....
-  The following practices will fail this validation and result in
-  manual processing, therefore should be avoided:
+[IMPORTANT]
+====
+.Attention
+The following practices will fail this validation and result in manual processing, therefore should be avoided:
 
   - squashing commits on PR merges
   - commits after PR approval without re-approval
-....
+====
+
  ** Details of the analysis are posted to the PRODCM {ticketing-system} ticket.
  ** When all the required checks pass validation, the bot recommends approval.
 The cm-bot may be configured to automatically approve the ticket if all of the required conditions above (and future ones) are met.
@@ -249,20 +248,18 @@ Additionally, a manual review / approval is always required in the following con
  ** If human approvals are needed, the required approvers will review the details and approve/decline accordingly.
  ** Random inspections of automatically approved tickets are performed by the security team monthly to ensure the automation functions properly.
 
-+
-!!!
-important
-+
-....
+
+[IMPORTANT]
+====
 1. Note that the above flow does not catch weaknesses in design, and
 therefore does not replace the need for threat modeling and security
 review in the design phase.
 2. Additional requirements may be added later as the process continues
 to mature.
-....
+====
 
 . *Detect Risky Changes, Deploy and Close*
-+
+
 {hr-system-name} job proceeds only with an approved and validated PRODCM ticket.
 
  ** During production deploys, a `terraform plan` is always performed first to detect risky changes.
