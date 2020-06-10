@@ -1,6 +1,6 @@
 name: hippa-compliance
 title: HIPPA Compliance
-version: dev
+version: 2020
 nav:
 - modules/ROOT/nav.adoc
 - modules/hippa-compliance/nav.adoc

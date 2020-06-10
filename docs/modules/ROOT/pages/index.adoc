@@ -1,8 +1,9 @@
 = {company-short-name} Security Policies, Standards, and Procedures
 
 The Health Insurance Portability and Accountability Act of 1996 (HIPAA) and its implementing
-regulations restrict {company-full-name} ,(“**{company-short-name}”**) abilities to use and disclose protected
+regulations restrict {company-full-name}, (“**{company-short-name}”**) abilities to use and disclose protected
 health information (PHI).
+
 Protected Health Information. Protected health information means information that is created or received
 by the Company and relates to the past, present, or future physical or mental health condition of a
 Patient/Client (“Participant”); the provision of health care to a participant; or the past, present, or future
