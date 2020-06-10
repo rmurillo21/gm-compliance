@@ -37,16 +37,15 @@ In particular, with Zero Trust there is no default trust for any entity -- inclu
 In addition, verifying that authorized entities are always doing only what they're allowed to do is no longer optional;
 it's now mandatory.
 
-!!!
-Summary
-
-....
+[NOTE]
+.Summary
+====
 * No internal network. (Almost) 100% cloud.
 * Fully segregated with Granular policy enforcements.
 * Individually secured devices. No production access by default.
-....
+==== 
 
-==== (2) "`Air-Gapped`" environments meet short-lived processes
+(2) "`Air-Gapped`" environments meet short-lived processes
 
 We extend the zero-trust security model with a "`Minimal Infrastructure`" approach, where we use "`Anything-as-a-Service`" whenever possible, to harness the full power of the cloud.
 Cloud services allow us to contain and control access at a much more granular level, compared to operating on-premise infrastructure.
