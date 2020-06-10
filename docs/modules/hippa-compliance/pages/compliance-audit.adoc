@@ -77,7 +77,7 @@ Direct all other communication requests to one of the following:
 
 === Continuous Compliance Monitoring
 
-The status of compliance is tracked via JupiterOne.
+The status of compliance is tracked via {sec-ops-provider}.
 Compliance dashboards are configured with applicable internal and external standards and frameworks.
 Any potential gaps detected are reported on the compliance dashboards.
 

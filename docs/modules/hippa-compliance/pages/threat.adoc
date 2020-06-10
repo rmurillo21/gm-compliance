@@ -69,7 +69,7 @@ The services used include AWS Shield, WAF, Cloudfront, and/or API Gateway.
 
 Security events and alerts are aggregated to and correlated by one or both of the following solutions:
 
-* JupiterOne
+* {sec-ops-provider}
 * Internally developed security automation tooling
 
 === Threat Intelligence Monitoring

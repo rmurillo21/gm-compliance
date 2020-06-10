@@ -148,7 +148,7 @@ These actions shall be documented and shared with the responsible workforce memb
 
 === Remediation of Control Deficiencies
 
-Most controls are continuously monitored and reported via automation on the JupiterOne platform.
+Most controls are continuously monitored and reported via automation on the {sec-ops-provider} platform.
 
 Control deficiencies identified as a result of an internal or external system audit are documented and reviewed with management.
 

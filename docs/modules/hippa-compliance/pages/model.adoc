@@ -229,7 +229,7 @@ Summary
 
 ==== Architecture Diagrams
 
-Detailed architecture diagrams of the in-scope networks, endpoints, applications as well as the security operations are developed and maintained by JupiterOne.
+Detailed architecture diagrams of the in-scope networks, endpoints, applications as well as the security operations are developed and maintained by {sec-ops-provider}.
 
 ==== Cloud Architecture
 
@@ -275,7 +275,7 @@ A set of metrics / KPIs have been defined to assist in the measuring, reporting 
 
 A security scorecard is produced every  with updates to key metrics of the {company-short-name} information security program, to measure its adoption and effectiveness.
 
-The reports and scorecards are maintained by and can be accessed at JupiterOne.
+The reports and scorecards are maintained by and can be accessed at {sec-ops-provider}.
 
 === Quality of Service
 
