@@ -14,10 +14,10 @@ The incident response process addresses:
 and
 * Facilitation of clear communication of information security incidents with internal, as well as external, stakeholders
 
-!!!
-Note
-
- These policies were adapted from work by the [HIPAA Collaborative of Wisconsin Security Networking Group](http://hipaacow.org/wp-content/uploads/2015/02/HCR-Security-Incident-Response-FINAL-12.18.14.doc). Refer to the linked document for additional copyright information.
+[NOTE]
+====
+These policies were adapted from work by the http://hipaacow.org/wp-content/uploads/2015/02/HCR-Security-Incident-Response-FINAL-12.18.14.doc[HIPAA Collaborative of Wisconsin Security Networking Group]. Refer to the linked document for additional copyright information.
+====
 
 == Policy Statements
 
@@ -55,7 +55,7 @@ Current members of the {company-short-name} SIRT:
 === Incident Management Process
 
 The {company-short-name} incident response process follows the process recommended by https://www.sans.org[SANS], an industry leader in security.
-Process flows are a direct representation of the SANS process which can be found in link:sections/incident-flowchart.pdf[this document].
+Process flows are a direct representation of the SANS process which can be found in link:incident-flowchart.pdf[this document].
 
 {company-short-name}'s incident response classifies security-related events into the following categories:
 
