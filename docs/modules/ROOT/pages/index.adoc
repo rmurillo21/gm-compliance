@@ -29,11 +29,11 @@ It is {company-short-name}’s policy to comply fully with HIPAA's requirements.
 have access to PHI must comply with this HIPAA Privacy and Security Plan. For purposes of this plan and
 the Company’s use and disclosure procedures, the workforce includes individuals who would be considered
 part of the workforce under HIPAA such as employees, volunteers, interns, board members and other
-persons whose work performance is under the direct control of Axis, whether or not they are paid by Axis.
+persons whose work performance is under the direct control of {company-short-name}, whether or not they are paid by {company-short-name}.
 The term "employee" or “staff member” includes all of these types of workers.
 
 No third party rights (including but not limited to rights of participants, beneficiaries, covered dependents,
-or business associates) are intended to be created by this Plan. Axis reserves the right to amend or change
+or business associates) are intended to be created by this Plan. {company-short-name} reserves the right to amend or change
 this Plan at any time (and even retroactively) without notice.
 
 All staff members must comply with all applicable HIPAA privacy and information security policies. If

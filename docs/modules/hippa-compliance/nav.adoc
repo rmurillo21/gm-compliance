@@ -23,8 +23,7 @@
 *** xref:breach.adoc[Breach Investigation and Notification]
 *** xref:vendor.adoc[Third Party Security and Vendor Risk Management]
 *** xref:privacy.adoc[Privacy Practice and Consent]
-
-**** xref:ref.adoc[23. Addendum and References]
+*** xref:ref.adoc[Addendum and References]
 **** xref:employee-handbook.adoc[Appendix A. Employee Handbook]
 **** xref:approved-software.adoc[Appendix B. Approved Software]
 **** xref:approved-vendors.adoc[Appendix C. Approved Vendors]

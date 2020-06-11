@@ -11,8 +11,8 @@
 . xref:hr.adoc[HR and Personnel Security]
 . xref:access.adoc[Access]
 . xref:facility.adoc[Facility Access and Physical Security]
-. xref:asset-mgmt.adoc[1Asset Inventory Management]
-. xref:data-mgmt.adoc[1Data Management]
+. xref:asset-mgmt.adoc[Asset Inventory Management]
+. xref:data-mgmt.adoc[Data Management]
 . xref:data-protection.adoc[Data Protection]
 . xref:sdlc.adoc[Secure Software Development and Product Security]
 . xref:ccm.adoc[Configuration and Change Management]
@@ -35,6 +35,5 @@
 ** xref:privacy-policy.adoc[Appendix H Privacy Policy]
 ** xref:cookie-policy.adoc[Appendix I Cookie Policy]
 ** xref:gdpr-dpa.adoc[Appendix J GDPR Data Processing Agreement]
-** xref:dev@gm-compliance:pci-compliance:gdpr-dpa.adoc[Appendix J GDPR Data Processing Agreement]
 
 include::ROOT:partial$footer.adoc[]

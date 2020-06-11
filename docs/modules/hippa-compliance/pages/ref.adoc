@@ -1,0 +1,14 @@
+== Addendum and References
+
+The following is a list of policy addendum and references.
+
+* xref:employee-handbook.adoc[Appendix A. Employee Handbook]
+* xref:approved-software.adoc[Appendix B. Approved Software]
+* xref:approved-vendors.adoc[Appendix C. Approved Vendors]
+* xref:definitions.adoc[Appendix D. Key Definitions]
+* xref:hipaa-baa.adoc[Appendix E. HIPAA Business Associate Agreement]
+* xref:hipaa-mapping.adoc[Appendix F. HIPAA Controls Mapping]
+* xref:nist-mapping.adoc[Appendix G. NIST Controls Mapping]
+* xref:privacy-policy.adoc[Appendix H. Privacy Policy]
+* xref:cookie-policy.adoc[Appendix I. Cookie Policy]
+* xref:gdpr-dpa.adoc[Appendix J. GDPR Data Processing Agreement]

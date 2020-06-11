@@ -28,6 +28,7 @@ asciidoc:
     engineer-email: engineer@newco.com
     engineer-full-name: John Anderson
     hr-system-name: BambooHR
+    hids-name: OSSEC
     operating-officer-email: coo@newco.com
     operating-officer-full-name: Jane Smith
     privacy-officer-full-name: Janet Elson
@@ -37,4 +38,3 @@ asciidoc:
     security-officer-full-name: Freddy Velasquez
     ticketing-system: SalesForce
     ticketing-system-url: salesforce.com
-    hids-name: OSSEC
