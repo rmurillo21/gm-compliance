@@ -31,12 +31,12 @@ Unmitigated risk above the pre-defined acceptable level must be reviewed, approv
 
 ==== Acceptable Risk Levels
 
-Risks that are either low impact or low probability, based on the scoring mechanism defined in xref:cp-risk-assess.adoc[risk assessment process], are generally considered acceptable.
+Risks that are either low impact or low probability, based on the scoring mechanism defined in xref:risk-mgmt.adoc#risk-assement[risk assessment process], are generally considered acceptable.
 
-All other risks must be individually reviewed and managed according to the xref:cp-risk-mgmt.adoc[risk management process].
+All other risks must be individually reviewed and managed according to the xref:risk-mgmt.adoc#risk-management[risk management process].
 
+[#risk-management]
 === Risk Management Process
-
 Risk analysis and risk management are recognized as important components of {company-short-name}'s corporate compliance and information security program.
 
 {company-short-name}'s risk management process is developed in accordance with the Risk Analysis and Risk Management implementation specifications within the Security Management standard and the evaluation standards set forth in the HIPAA Security Rule, 45 CFR 164.308(a)(1)(ii)(A), 164.308(a)(1)(ii)(B), 164.308(a)(1)(i), and 164.308(a)(8).
@@ -74,7 +74,7 @@ If the Issue is rejected, it goes back for further review and documentation.
  .. If the review is approved, the Security Officer then marks the Issue as Done, adding any pertinent notes required.
 . The Risk Management Procedure is monitored on a quarterly basis using {ticketing-system} reporting to assess compliance with above policy.
 
-Third party risk management details including procurement and systems acquisition can be found in xref:vendor.adoc[§vendor].
+Third party risk management details including procurement and systems acquisition can be found in xref:vendor.adoc[Vendor].
 
 ==== Risk Management Schedule
 
@@ -85,8 +85,8 @@ The assessment process should be completed in a timely fashion so that risk miti
 * Throughout a System's Development Life Cycle - from the time that a need for a new, untested information system configuration and/or application is identified through the time it is disposed of, ongoing assessments of the potential threats to a system and its vulnerabilities should be undertaken as a part of the maintenance of the system.
 * As Needed - the Security Officer (or other designated employee) or Risk Management Team may call for a full or partial risk assessment in response to changes in business strategies, information technology, information sensitivity, threats, legal liabilities, or other significant factors that affect {company-short-name}'s Platform.
 
+[#risk-assement]
 === Risk Assessment and Analysis
-
 The intent of completing a risk assessment is to determine potential threats and vulnerabilities and the likelihood and impact should they occur.
 The output of this process helps to identify appropriate controls for reducing or eliminating risk.
 
@@ -239,7 +239,7 @@ Financial-related fraud assessment is led by the COO/CFO.
 IT-related fraud assessment is led by the Compliance Officer or CISO.
 
 ==== Potential Frauds and Likelihood
-
+[cols="3,1,4"]
 |===
 | Fraud Risk | Likelihood | In Place Controls/Monitors
 
@@ -274,5 +274,4 @@ engage external law firm to review legal conduct
 | IT assets and resources tracking
 |===
 
-[.text-center]
 include::ROOT:partial$footer.adoc[]

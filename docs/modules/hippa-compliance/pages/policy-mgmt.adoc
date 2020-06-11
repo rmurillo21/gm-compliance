@@ -101,7 +101,7 @@ This allows easy reference to previous versions if necessary.
 ====
 
 . All policies are made accessible to all {company-short-name} workforce members.
-The current master policies are published at {domain-security-url}.
+The current master policies are published at https://{domain-security-url}[{domain-security-url}].
  ** Changes are automatically communicated to all {company-short-name} team members through integrations between  and Slack that log changes to a predefined {company-short-name} Slack Channel.
  ** The Security Officer also communicates policy changes to all employees via email.
 These emails include a high-level description of the policy change using terminology appropriate for the target audience.
