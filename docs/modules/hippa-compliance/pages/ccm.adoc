@@ -64,9 +64,9 @@ Deviations, misconfigurations, or configuration drifts are detected by these rul
 
 === Production Systems Provisioning
 
-. Before provisioning any systems, a request must be created and approved in the {ticketing-system} Production Change Management (PRODCM) project.
+. Before provisioning any systems, a request must be created and approved in the {ticketing-system} Production Change Management ({ticketing-system}) project.
  ** {ticketing-system} access requires authenticated users.
- ** Security grants access to the {ticketing-system} PRODCM project following the procedures covered in the xref:access.adoc[Access Establishment and Modification section].
+ ** Security grants access to the {ticketing-system} {ticketing-system} project following the procedures covered in the xref:access.adoc[Access Establishment and Modification section].
 . The security team must approve the provisioning request before any new system can be provisioned, unless a pre-approved automation process is followed.
 . Once provisioning has been approved, the implementer must configure the new system according to the standard baseline chosen for the system's role.
 . If the system will be used to store sensitive information, the implementer must ensure the volume containing this sensitive data is encrypted.
@@ -160,38 +160,38 @@ Once authenticated, a user then leverages AWS IAM Assume Role capability to swit
 The account and network structure looks like the following:
 
 ----
-SSO/IdP ── {company-short-name}-master
+SSO/IdP ── master
             │  └── billing and root DNS records only
             │
-            ├── {company-short-name}-dev
+            ├── dev
             │    └── VPC
             │        └── Subnets
             │             └── Security-Groups
             │                  └── EC2 instances
             │                       └── Docker containers
             │
-            ├── {company-short-name}-test
+            ├── test
             │    └── VPC
             │         └── Subnets
             │              └── Security-Groups
             │                   └── EC2 instances
             │                        └── Docker containers
             │
-            ├── {company-short-name}-infra
+            ├── infra
             │    └── VPC
             │         └── Subnets
             │              └── Security-Groups
             │                   └── EC2 instances
             │                        └── Docker containers
             │
-            ├── {company-short-name}-prod-us1
+            ├── prod-us1
             │    └── VPC
             │         └── Subnets
             │              └── Security-Groups
             │                   └── EC2 instances
             │                        └── Docker containers
             │
-            ├── {company-short-name}-prod-us2
+            ├── prod-us2
             │
             ...
 ----
@@ -200,7 +200,7 @@ SSO/IdP ── {company-short-name}-master
 
 {company-short-name} AWS environments and infrastructure are managed as code.
 Provisioning is accomplished using a set of automation scripts and Terraform code.
-Each new environment is created as a sub-account connected to `+{company-short-name}-master+`.
+Each new environment is created as a sub-account connected to `+master+`.
 The creation and provisioning of a new account follows the instructions documented in the Bootstrap a new AWS environment page of the development wiki.
 
 === Automated change management for deploys to AWS
@@ -210,22 +210,22 @@ This is done in a 3-step process:
 
 . *Create/Validate Change Request Ticket*
 +
-{hr-system-name} is used for continuous delivery (build and deploy), and we employ {hr-system-name}-{ticketing-system} automation such that:
+{cicd-system} is used for continuous delivery (build and deploy), and we employ {cicd-system} automation such that:
 
  ** Whenever deployment to a controlled environment (e.g.
-production accounts and infrastructure account) is requested, the {hr-system-name} job will check for an approved PRODCM ticket, or create a new ticket if not found.
- ** The automation code will attempt to automatically populate the required data for the PRODCM ticket (see list above).
- ** If the data cannot be automatically populated, {hr-system-name} may pause the job and prompt the user for manual input.
+production accounts and infrastructure account) is requested, the {cicd-system} job will check for an approved {ticketing-system} ticket, or create a new ticket if not found.
+ ** The automation code will attempt to automatically populate the required data for the {ticketing-system} ticket (see list above).
+ ** If the data cannot be automatically populated, {cicd-system} may pause the job and prompt the user for manual input.
  ** Job will be paused until the request is approved or canceled (rejected).
-Before continuing to deployment, {hr-system-name} will validate the change request's build job identifier, build number and source code branch.
+Before continuing to deployment, {cicd-system} will validate the change request's build job identifier, build number and source code branch.
 
 . *Detect Change Details and Obtain Approval*
 +
 A separate `change-management-bot` is implemented to provide additional details to assist/automate the ticket approval process:
 
- ** Whenever a PRODCM ticket is created, the bot is triggered via a {ticketing-system} webhook.
+ ** Whenever a {ticketing-system} ticket is created, the bot is triggered via a {ticketing-system} webhook.
  ** The bot is configured to examine the following:
-  *** Look for all the code changes since the last approved PRODCM ticket.
+  *** Look for all the code changes since the last approved {ticketing-system} ticket.
   *** Check that all code commits have been approved by a reviewer other than the author, except for a version bump.
   *** Ensure that security scanning has been completed for this build and no blocking issue is found.
 
@@ -239,7 +239,7 @@ The following practices will fail this validation and result in manual processin
   - commits after PR approval without re-approval
 ====
 
- ** Details of the analysis are posted to the PRODCM {ticketing-system} ticket.
+ ** Details of the analysis are posted to the {ticketing-system} {ticketing-system} ticket.
  ** When all the required checks pass validation, the bot recommends approval.
 The cm-bot may be configured to automatically approve the ticket if all of the required conditions above (and future ones) are met.
 Additionally, a manual review / approval is always required in the following conditions:
@@ -260,7 +260,7 @@ to mature.
 
 . *Detect Risky Changes, Deploy and Close*
 
-{hr-system-name} job proceeds only with an approved and validated PRODCM ticket.
+{cicd-system} job proceeds only with an approved and validated {ticketing-system} ticket.
 
  ** During production deploys, a `terraform plan` is always performed first to detect risky changes.
  ** Examples of security-related or risky changes include:
@@ -269,8 +269,8 @@ to mature.
   *** Attach/detach policy
   *** Change/delete to security group
   *** Anything is deleted (in prod, deletes should be unusual so they should be manually reviewed)
- ** If risky changes are detected, the deploy is paused and the PRODCM ticket is updated to require manual review before continuing.
- ** Once a deploy is completed, the PRODCM ticket is automatically resolved and closed.
+ ** If risky changes are detected, the deploy is paused and the {ticketing-system} ticket is updated to require manual review before continuing.
+ ** Once a deploy is completed, the {ticketing-system} ticket is automatically resolved and closed.
 
 === Patch Management Procedures
 
@@ -307,9 +307,9 @@ These patches will be applied to all production systems during the next nightly 
 === Production Deploy / Code Promotion Processes
 
 In order to promote changes into Production, a valid and approved Change Request (CR) is required.
-It can be created in the {ticketing-system-url}[Change Management System/Portal] which implements the {company-short-name} Change Management workflow, using the Production Change Management (PRODCM) {ticketing-system} project to manage changes and approvals.
+It can be created in the {ticketing-system-url}[Change Management System/Portal] which implements the {company-short-name} Change Management workflow, using the Production Change Management ({ticketing-system}) {ticketing-system} project to manage changes and approvals.
 
-* At least two approvals are required for each PRODCM ticket.
+* At least two approvals are required for each {ticketing-system} ticket.
 By default, the approvers are
  ** Security Lead and
  ** Engineering Lead.
@@ -317,8 +317,8 @@ By default, the approvers are
 For example,
  ** the IT Manager is added as an approver for IT/network changes;
 and
- ** the DevOps Lead is added as an approver for changes to `+aws-{company-short-name}-infra+` account in AWS.
-* Each PRODCM ticket requires the following information at a minimum:
+ ** the DevOps Lead is added as an approver for changes to `+aws-infra+` account in AWS.
+* Each {ticketing-system} ticket requires the following information at a minimum:
  ** Summary of the change
  ** Component(s) impacted
  ** Justification
@@ -331,7 +331,7 @@ plan, apply)
  ** Deploy branch (e.g.
 master)
  ** Target environment (e.g.
-`+aws-{company-short-name}-infra+`, `+aws-{company-short-name}-prod-us+`, `datacenter-hq`)
+`+aws-infra+`, `+aws-prod-us+`, `datacenter-hq`)
  ** Links to pull requests and/or {ticketing-system} issues
  ** Security scan status and results
 
@@ -347,7 +347,7 @@ If an emergency change must be made, such as patching of a zero-day security vul
  .. Support/Troubleshooting access
  .. Root account or root user access
  .. Local system access (for on-premise environment)
-* *Post-emergency Documentation:* A PRODCM ticket should be created within 24 hours following the emergency change.
+* *Post-emergency Documentation:* A {ticketing-system} ticket should be created within 24 hours following the emergency change.
 The ticket should contains all details related to the change, including:
  ** Reason for emergency change
  ** Method of emergency access used
