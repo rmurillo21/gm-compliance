@@ -4,19 +4,13 @@
 
 This policy outlines the requirements and controls/procedures {company-short-name} has implemented to manage remote access.
 
-
-== Policy Statements
-
-
-{company-short-name} policy requires that
-
 To establish guidelines and define standards for remote access to
-Sunshine Health Care Provider’s information resources (networks,
+{company-short-name}’s information resources (networks,
 systems, applications, and data including but not limited to, electronic
 protected health information (ePHI) received, created, maintained or
 transmitted by the organization). Remote access is a privilege and is
 granted only to remote users who have a defined need for such access,
-and who demonstrate compliance with Sunshine Health Care Provider’s
+and who demonstrate compliance with {company-short-name}’s
 established safeguards which protect the confidentiality, integrity, and
 availability of information resources.
 
@@ -24,7 +18,7 @@ availability of information resources.
 
 The purpose of this policy is to establish uniform security
 requirements for all authorized users who require remote electronic
-access to Sunshine Health Care Provider’s network and information
+access to {company-short-name}’s network and information
 assets. The guidelines set forth in this policy are designed to minimize
 exposure to damages that may result from unauthorized use of Sunshine
 Health Care Provider’s resources and confidential information, and to at
@@ -34,9 +28,9 @@ all times be in compliance with HIPAA.
 
 This policy applies to all authorized system users, including
 members of the workforce, business associates, and vendors, desiring
-remote connectivity to Sunshine Health Care Provider’s networks,
+remote connectivity to {company-short-name}’s networks,
 systems, applications, and data. This includes nurses, hospice staff,
-and administrators of Sunshine Health Care Provider’s remote healthcare
+and administrators of {company-short-name}’s remote healthcare
 branches and locations.
 
  
@@ -46,6 +40,11 @@ WAN domain, WAN domain, and Remote Access Domain. Additionally, policies
 from the Workstation domain to ensure the health of remote clients, as
 well as the policies of End Users domain to ensure safe information
 security practices are employees while accessing the VPN as included.
+
+
+== Policy Statements
+
+{company-short-name} policy requires that
 
 === Standards
 
@@ -132,5 +131,3 @@ basis to an employee
 * Security personnel should stay current with all encryption and
 authentication standards and ensure that the VPN system is always
 current.
-* 
-
