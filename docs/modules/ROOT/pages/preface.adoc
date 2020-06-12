@@ -1,5 +1,6 @@
 // http://catalyzeio.github.io/policies/
 // STATUS: Needs work
+// Goal: Intro and open source our own policys
 
 # {sec-ops-provider} HIPAA Compliance Policies
 
