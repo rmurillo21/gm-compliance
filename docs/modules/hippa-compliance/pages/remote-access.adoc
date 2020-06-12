@@ -1,0 +1,136 @@
+= Remote Access Policy for Remote Workers
+
+`2020.1`
+
+This policy outlines the requirements and controls/procedures {company-short-name} has implemented to manage remote access.
+
+
+== Policy Statements
+
+
+{company-short-name} policy requires that
+
+To establish guidelines and define standards for remote access to
+Sunshine Health Care Provider’s information resources (networks,
+systems, applications, and data including but not limited to, electronic
+protected health information (ePHI) received, created, maintained or
+transmitted by the organization). Remote access is a privilege and is
+granted only to remote users who have a defined need for such access,
+and who demonstrate compliance with Sunshine Health Care Provider’s
+established safeguards which protect the confidentiality, integrity, and
+availability of information resources.
+
+=== Purpose/Objectives
+
+The purpose of this policy is to establish uniform security
+requirements for all authorized users who require remote electronic
+access to Sunshine Health Care Provider’s network and information
+assets. The guidelines set forth in this policy are designed to minimize
+exposure to damages that may result from unauthorized use of Sunshine
+Health Care Provider’s resources and confidential information, and to at
+all times be in compliance with HIPAA.
+
+=== Scope
+
+This policy applies to all authorized system users, including
+members of the workforce, business associates, and vendors, desiring
+remote connectivity to Sunshine Health Care Provider’s networks,
+systems, applications, and data. This includes nurses, hospice staff,
+and administrators of Sunshine Health Care Provider’s remote healthcare
+branches and locations.
+
+ 
+
+The policy has in its scope all policies pertaining to the LAN to
+WAN domain, WAN domain, and Remote Access Domain. Additionally, policies
+from the Workstation domain to ensure the health of remote clients, as
+well as the policies of End Users domain to ensure safe information
+security practices are employees while accessing the VPN as included.
+
+=== Standards
+
+The policy adheres to the recommendations in the NIST SP 800-77:
+Guide to IPSec VPN.
+
+* Password authentication should be through Extensible
+Authentication Protocol-Transport Level Security (EAP-TLS)
+* Passwords should be in compliant with the organization’s
+Password Policy which refers to the NIST 800-63B document
+* All communication and data flow should ensure strong encryption
+and should be through Layer Two Tunneling Protocol (L2TP) over Internet
+Protocol security (IPsec)
+
+=== Procedures
+
+=== Gaining Remote Access
+
+* Workforce members shall apply for remote access connections by
+completing a “VPN Access Authorization” form.
+* The applied form should be approved and authorized by the
+supervisor of the employee and the CISO.
+* The CISO will authorize the form only after ensuring that the
+employee has undergone compliance training and VPN usage training
+* All employees who are granted remote access privileges must sign
+and comply with the “Information Access & Confidentiality Agreement.” +
+
+=== Equipment, Software, and Hardware
+
+* The VPN server will be updated and patched and always current
+* The Network Access Control server will be updated and patched
+and always current
+* Corporate firewalls, IPS, and the client host-based firewall
+will be updated and patched and always current
+* The employee laptops will have full disk encryption and will be
+remotely administrated for updating and health checks
+* The employee may not tamper or turn off with any installed
+software (anti-malware, data loss prevention software, VPN clients,
+local firewall) or use any systems to circumvent their functioning +
+
+=== Connection
+
+* VPN connections will be permitted to authorized users only
+through organization-provided and registered laptops
+* VPN connections will be granted only in accordance with the
+authorization form – for the particular user, for the specified
+duration
+* All data in motion encryption and authentication protocols will
+follow policy and required standards
+* All connections are permitted only on multi-form authentication:
+passwords and SMS code, or passwords and voice code.
+* Data transfers after successful authentication are permitted
+only after the NAC system provides a green light of the laptop’s
+security health, else the connection will be closed
+* VPN connected employees will log off and disconnect when their
+task is completed, even if the session has not ended
+* The connection will be automatically closed if there is no
+activity for 15 minutes. +
+
+=== Logging and Monitoring
+
+* All login attempts, authentication, and log off times and
+usernames are logged
+* All VPN activity is logged
+* All logs are centrally maintained in the SIEM server
+* All logs are monitored by security personnel and anomalies
+reported
+* Logs are retained as defined in the Log Collection and
+Retainment policy +
+ +
+
+=== Enforcement
+
+* Remote access users who violate this policy are subject to
+sanctions and/or disciplinary actions, up to and including termination
+of employment or contract. Termination of access by remote users is
+processed in accordance with the Termination policy.
+
+=== Guidelines
+
+* Employees should always lock computer screens when not in use
+* Supervisors should grant authorization only on a need to know
+basis to an employee
+* Security personnel should stay current with all encryption and
+authentication standards and ensure that the VPN system is always
+current.
+* 
+

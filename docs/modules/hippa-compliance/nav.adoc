@@ -9,6 +9,7 @@
 *** xref:system-audit.adoc[System Audits, Monitoring and Assessments]
 *** xref:hr.adoc[HR and Personnel Security]
 *** xref:access.adoc[Access]
+**** xref:remote-access.adoc[Remote Access]
 *** xref:facility.adoc[Facility Access and Physical Security]
 *** xref:asset-mgmt.adoc[Asset Inventory Management]
 *** xref:data-mgmt.adoc[Data Management]
