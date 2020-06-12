@@ -249,8 +249,8 @@ Support access should be minimized and is designed to involve manual approval an
 * The Support role by default is NOT assigned to anyone.
 * The Support role is configured with Read level access to the services used by {company-short-name} platform services and applications.
 It does NOT have permission to make any configuration changes and does NOT have access to production data.
-* A PRODCM ticket is used to request temporary support access and must be approved by Head of Engineering and Security.
-* Upon approval of the support access PRODCM ticket, Security grants the requestor temporary access to by assigning the Support role to that particular individual user in Okta.
+* A {ticketing-system} ticket is used to request temporary support access and must be approved by Head of Engineering and Security.
+* Upon approval of the support access {ticketing-system} ticket, Security grants the requestor temporary access to by assigning the Support role to that particular individual user in Okta.
 * The Support role is protected by Dome9 with IAM Safety and it must be explicitly allowed by the Security team for it to assume the Support role in the target production environment.
 * By default, temporary Support access is limited to one hour.
 This can be extended by the Security team.

@@ -28,6 +28,7 @@ asciidoc:
     engineer-email: engineer@newco.com
     engineer-full-name: John Anderson
     hr-system-name: BambooHR
+    hr-system-url: https://bamboohr.com
     hids-name: OSSEC
     operating-officer-email: coo@newco.com
     operating-officer-full-name: Jane Smith
@@ -36,5 +37,9 @@ asciidoc:
     security-committee-members: Lisa Andrade, John Paz
     security-officer-email: security.officer@newco.com
     security-officer-full-name: Freddy Velasquez
-    ticketing-system: SalesForce
-    ticketing-system-url: salesforce.com
+    ticketing-system: GitHub
+    ticketing-system-url: https://github.com
+    repo-system: GitHub
+    repo-system-url: https://github.com
+    cicd-system: Jenkins
+    cicd-system-url: https://www.jenkins.io/
